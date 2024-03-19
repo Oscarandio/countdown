@@ -1,0 +1,22 @@
+body {
+  background-color: #222;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+}
+div[data-date] {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  height: 100vh;
+  justify-content: center;
+}
+div[data-date] div {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 4px;
+  text-align: center;
+}
+div[data-date] div > span {
+  font-weight: 700;
+}
